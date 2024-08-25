@@ -1,0 +1,38 @@
+{
+  "name": "7bbcdb1c-99ee-4b2e-b0a1-0a0f5f1bb317",
+  "displayName": "coffe",
+  "form": {
+  
+  },
+  "transitionRoutes": [ {
+    "intent": "yes",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "apakah mau di antar?" ]
+        },
+        "languageCode": "en"
+      } ],
+      "nextActionOverride": {
+      
+      }
+    },
+    "targetPage": "breakfast",
+    "name": "2ce3757f-591c-4a71-a1c1-1af8cdd2a709"
+  }, {
+    "intent": "no",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "its okay" ]
+        },
+        "languageCode": "en"
+      } ],
+      "nextActionOverride": {
+      
+      }
+    },
+    "targetPage": "End Flow",
+    "name": "5db298d4-17cd-4196-82fd-ddc2092a6862"
+  } ]
+}

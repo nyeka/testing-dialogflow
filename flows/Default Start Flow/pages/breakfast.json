@@ -1,0 +1,49 @@
+{
+  "name": "2bbbb297-f38f-4c2c-be0b-da0832498ccf",
+  "displayName": "breakfast",
+  "form": {
+  
+  },
+  "entryFulfillment": {
+    "messages": [ {
+      "text": {
+        "text": [ "would you like some coffe?" ]
+      },
+      "languageCode": "en"
+    } ],
+    "nextActionOverride": {
+    
+    }
+  },
+  "transitionRoutes": [ {
+    "intent": "yes",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "would you like breakfast too?" ]
+        },
+        "languageCode": "en"
+      } ],
+      "nextActionOverride": {
+      
+      }
+    },
+    "targetPage": "coffe",
+    "name": "eaa84938-84af-431c-b67b-03266217a09a"
+  }, {
+    "intent": "no",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "okay if you dont want to!" ]
+        },
+        "languageCode": "en"
+      } ],
+      "nextActionOverride": {
+      
+      }
+    },
+    "targetPage": "End Flow",
+    "name": "2305f2f3-990f-40cc-b76d-92cc0de496f3"
+  } ]
+}
